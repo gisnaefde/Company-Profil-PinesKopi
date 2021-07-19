@@ -73,17 +73,9 @@
 
 .hero{
     background-color: black;
-    width: auto;
-    height: 40rem;
-    padding-top: 3rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
-    .hero-content{
-        width: auto;
-        height: 30rem;
-        border-radius: 3rem;
-        background-color: #0C3F38;
-    }
+    background-color: transparent;
+    
+
 }
 
 .coffee{
@@ -116,7 +108,7 @@
                 border-style: solid;
 
                 &:hover{
-                    transform: scale(1.06);
+                    transform: scale(1.05);
                 }
             }
             h5{

@@ -3,7 +3,7 @@ import Logo from '../assets/images/logo.png'
 
 const Header = () => {
   return (
-    <section className="header d-flex align-items-center">
+    <section className="header d-flex align-items-center fixed-top">
       <div className="container-fluid navbar-1 shadow-lg">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-none navbar-2">
