@@ -8,7 +8,7 @@ const Hero = () => {
         <section className="hero w-100">
             <div className="d-flex justify-content-center">
                 <div className="hero-content w-100 d-flex align-items-center container">
-                    <div className="row  ">
+                    <div className="row d-flex justify-content-center ">
                         <div className="col-12 col-md-5 d-flex align-items-center ">
                             <h1>Life Begins <br></br><br></br>
                                 After Coffee</h1>
@@ -22,12 +22,9 @@ const Hero = () => {
                                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                             <img src={Bg2} className="d-none d-md-block"></img>
                         </div>
-
                         <button className="btn "> See More </button>
-
                     </div>
-
-                </div>
+                </div>           
             </div>
             <img src={Bg1} className="w-100"></img>
         </section>
