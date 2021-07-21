@@ -9,8 +9,8 @@ const Hero = () => {
             <div className="d-flex justify-content-center">
                 <div className="hero-content w-100 d-flex align-items-center container">
                     <div className="row d-flex justify-content-center ">
-                        <div className="col-12 col-md-5 d-flex align-items-center ">
-                            <h1>Life Begins <br></br><br></br>
+                        <div className="col-12 col-md-5 d-flex align-items-center">
+                            <h1>Life Begins <br></br>
                                 After Coffee</h1>
                         </div>
                         <div className="col-12 col-md-7 d-flex align-items-center justify-content-center">
