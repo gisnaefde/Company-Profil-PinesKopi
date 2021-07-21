@@ -4,13 +4,14 @@ import Hero from '../parts/Hero';
 import Product from '../parts/Product';
 
 
+
 const LandingPage = () => {
     return (
         <div className="landingpages">
-            <Header></Header>
+
             <Hero></Hero>
             <Product></Product>
-            
+
         </div>
     );
 }

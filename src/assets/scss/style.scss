@@ -45,7 +45,8 @@
 
 
 .landingpages{
-    background-color: black;
+    position: relative;
+    background: #000;
 }
 
 
@@ -72,11 +73,26 @@
 }
 
 .hero{
-    background-color: black;
-    background-color: transparent;
-    
+    position: relative;
+    color: white;
+    height: 52.5rem;
+    img{
+        position: relative;    
+    }
+    .hero-content{
+        position: absolute;
+        z-index: 2;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        height: 52.5rem;
+        h1{
+            margin-bottom: 3rem;
+        }
+        
+    }
 
 }
+    
 
 .coffee{
     background-color: #0C3F38;
