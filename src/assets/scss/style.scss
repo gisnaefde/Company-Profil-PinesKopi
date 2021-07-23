@@ -182,3 +182,24 @@
     }
 
 }
+
+.quotes{
+    position: relative;
+    overflow: hidden;
+    .quotes-2{
+        position: absolute;
+        z-index: 2;
+        h1{
+            color: yellow;
+        }
+        p{
+            color: white;
+        }
+    }
+    img{
+        position: relative;
+
+
+    }
+
+}
