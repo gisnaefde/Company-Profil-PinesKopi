@@ -153,3 +153,32 @@
         }
     }
 }
+
+
+.ourstory{
+    background-color: #0C3F38;
+    height: auto;
+    width: auto;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    overflow: hidden;
+    img{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        height: 700px;
+        width: 550px;
+        border-top-left-radius: 10rem;
+        border-bottom-right-radius: 10rem;
+        border-color: white;
+    }
+    .story{
+        h2{
+            color: yellow;
+        }
+        p{
+            color: white;
+            text-align: justify;
+        }
+    }
+
+}
