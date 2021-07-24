@@ -23,7 +23,7 @@ const Hero = () => {
                                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
                         </div>
-                        <button className="btn "> See More </button>
+                        <button> See More </button>
                     </div>
                 </div>
             </div>
