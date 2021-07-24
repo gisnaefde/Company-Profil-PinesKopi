@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="95.6469mm" height="49.6389mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 9550.44 4956.5"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:19.97;stroke-miterlimit:22.9256;stroke-opacity:0.800000}
+    .fil0 {fill:black;fill-opacity:0.800000}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <rect x="2800.86" y="2202.01" width="4665.15" height="2749.63"/>
+    </clipPath>
+     <clipPath id="id1">
+      <rect x="2800.86" y="2202.02" width="4665.14" height="2749.63"/>
+     </clipPath>
+    <clipPath id="id2">
+     <rect x="9.99" y="4.85" width="4509.79" height="4946.79"/>
+    </clipPath>
+     <clipPath id="id3">
+      <rect x="9.99" y="4.85" width="4509.79" height="4946.79"/>
+     </clipPath>
+    <clipPath id="id4">
+     <rect x="9.99" y="4.85" width="4515.03" height="2175.71"/>
+    </clipPath>
+     <clipPath id="id5">
+      <rect x="9.99" y="4.85" width="4515.03" height="2175.71"/>
+     </clipPath>
+    <clipPath id="id6">
+     <rect x="6260.76" y="1168.26" width="3279.7" height="3783.39"/>
+    </clipPath>
+     <clipPath id="id7">
+      <rect x="6260.76" y="1168.26" width="3279.69" height="3783.39"/>
+     </clipPath>
+    <clipPath id="id8">
+     <rect x="4399" y="4.85" width="2597.88" height="2218.15"/>
+    </clipPath>
+     <clipPath id="id9">
+      <rect x="4399" y="4.85" width="2597.89" height="2218.15"/>
+     </clipPath>
+    <clipPath id="id10">
+     <rect x="6975.46" y="4.85" width="2564.99" height="2218.55"/>
+    </clipPath>
+     <clipPath id="id11">
+      <rect x="6975.46" y="4.85" width="2564.99" height="2218.55"/>
+     </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2076911051728">
+   <g style="clip-path:url(#id0)">
+    <image style="clip-path:url(#id1)" x="2800.86" y="2202.02" width="4665.14" height="3112.87" xlink:href="qoutes_Images\qoutes_ImgID1.png"/>
+   </g>
+   <g style="clip-path:url(#id2)">
+    <image style="clip-path:url(#id3)" x="-27.06" y="-367.8" width="4546.83" height="5683.54" xlink:href="qoutes_Images\qoutes_ImgID2.png"/>
+   </g>
+   <g style="clip-path:url(#id4)">
+    <image style="clip-path:url(#id5)" x="-21.82" y="-379.13" width="4546.83" height="2559.69" xlink:href="qoutes_Images\qoutes_ImgID3.png"/>
+   </g>
+   <g style="clip-path:url(#id6)">
+    <image style="clip-path:url(#id7)" x="6260.76" y="1168.26" width="3315.88" height="4144.85" xlink:href="qoutes_Images\qoutes_ImgID4.png"/>
+   </g>
+   <g style="clip-path:url(#id8)">
+    <image style="clip-path:url(#id9)" x="4399" y="-374.88" width="2597.89" height="2597.89" xlink:href="qoutes_Images\qoutes_ImgID5.png"/>
+   </g>
+   <g style="clip-path:url(#id10)">
+    <image style="clip-path:url(#id11)" x="6975.46" y="-378.63" width="2602.04" height="2602.04" xlink:href="qoutes_Images\qoutes_ImgID6.png"/>
+   </g>
+  </g>
+  <polygon class="fil0 str0" points="9.99,9.99 9540.46,9.99 9540.46,4946.51 9.99,4946.51 "/>
+ </g>
+</svg>

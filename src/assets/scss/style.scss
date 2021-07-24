@@ -186,18 +186,31 @@
 .quotes{
     position: relative;
     overflow: hidden;
+    height: 50rem;
+    width: auto;
     .quotes-2{
         position: absolute;
         z-index: 2;
-        h1{
+        h1,h2{
             color: yellow;
+            padding-top: 5rem;
+            display: flex;
+            justify-content: center;
         }
         p{
             color: white;
+            font-size: 45px;
+            padding: 5rem;
+            text-align: center;
+            span{
+                color: yellow;
+            }
         }
     }
     img{
         position: relative;
+        height: 50rem;
+        width: auto;
 
 
     }
@@ -208,11 +221,12 @@
     background-color: #0C3F38;
     color: white;
     .footer-2{
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        
         img{
             block-size: 4rem;
+            margin-bottom: 2rem;
         }
         h5{
             color: yellow;
