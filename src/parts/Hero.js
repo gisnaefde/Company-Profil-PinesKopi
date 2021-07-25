@@ -1,6 +1,8 @@
 import React from 'react';
 import Bg1 from '../assets/images/cf_4_2.png';
 import Bg2 from '../assets/images/fp_1.jpg';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 
 const Hero = () => {
@@ -8,22 +10,29 @@ const Hero = () => {
         <section className="hero w-100">
             <div className="d-flex justify-content-center">
                 <div className="hero-content w-100 d-flex align-items-center container">
-                    <div className="row d-flex  ">
+                    <div className="row ">
                         <div className="col-12 col-md-5 d-flex align-items-center">
-                            <h1>Life Begins <br></br>
-                                After Coffee</h1>
+                            <Fade left>
+                                <h1>Life Begins <br></br>
+                                    After Coffee</h1>
+                            </Fade>
                         </div>
                         <div className="col-12 col-md-7 d-flex align-items-center justify-content-center">
-                            <img src={Bg2} className="d-none d-md-block"></img>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-
+                            <Zoom>
+                                <img src={Bg2} className="d-none d-md-block"></img>
+                            </Zoom>
+                            <Fade right>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                            </Fade>
                         </div>
-                        <button> See More </button>
+                        <Zoom>
+                            <button className="btn"> See More </button>
+                        </Zoom>
                     </div>
                 </div>
             </div>
