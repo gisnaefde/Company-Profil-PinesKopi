@@ -73,13 +73,12 @@
 }
 
 .hero{
+    background-image: url(../images/cf_4_2.png);
+    background-size: cover;
     position: relative;
     color: white;
     height: 52.5rem;
-    overflow: hidden;
-    img{
-        position: relative;    
-    }
+    overflow: hidden;   
     .hero-content{
         position: absolute;
         z-index: 2;

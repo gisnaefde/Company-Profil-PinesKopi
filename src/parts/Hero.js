@@ -36,7 +36,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <img src={Bg1} className="w-100"></img>
+            {/* <img src={Bg1} className="w-100"></img> */}
         </section>
     );
 }
