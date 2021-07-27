@@ -18,17 +18,17 @@ const Footer = () => {
                             </div>
                             <h5 className="d-flex justify-content-center">Kedai Kopi Kebon Pines</h5>
                         </div>
-                        <div className="col-6 col-md-3 ">
+                        <div className="col-6 col-md-3">
                             <h3 className="d-flex justify-content-center">Location</h3>
                             <p className="d-flex justify-content-center">Ds. Sirnagalih <br />Kec.Cigalontang<br />Kab.Tasikmalaya</p>
                             <div className="d-flex justify-content-center">
                                 <button className="btn d-flex justify-content-center"> Tag Maps </button>
                             </div>
                         </div>
-                        <div className="col-6 col-md-3">
+                        <div className="col-6 col-md-3 mt-4">
                             <h3 className="d-flex justify-content-center">About Us</h3>
                         </div>
-                        <div className="col-6 col-md-3 contact">
+                        <div className="col-6 col-md-3 contact mt-4">
                             <h3 className="d-flex justify-content-center">Contact</h3>
                             <div className="d-flex justify-content-center">
                                 <img src={fb}></img>

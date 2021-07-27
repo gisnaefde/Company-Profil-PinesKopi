@@ -11,16 +11,18 @@ const Hero = () => {
             <div className="d-flex justify-content-center">
                 <div className="hero-content w-100 d-flex align-items-center container">
                     <div className="row ">
-                        <div className="col-12 col-md-5 d-flex align-items-center">
+                        <div className="col-12 col-md-4 d-flex align-items-center">
                             <Fade left>
                                 <h1>Life Begins <br></br>
                                     After Coffee</h1>
                             </Fade>
                         </div>
-                        <div className="col-12 col-md-7 d-flex align-items-center justify-content-center">
+                        <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
                             <Zoom>
                                 <img src={Bg2} className="d-none d-md-block"></img>
                             </Zoom>
+                        </div>
+                        <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
                             <Fade right>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -31,7 +33,7 @@ const Hero = () => {
                             </Fade>
                         </div>
                         <Zoom>
-                            <button className="btn"> See More </button>
+                            <button className="btn ml-50"> See More </button>
                         </Zoom>
                     </div>
                 </div>

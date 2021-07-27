@@ -7,12 +7,12 @@ const Ourstory = () => {
     return (
         <div className="ourstory">
             <div className="container ">
+                <Slide top><h2 className="text-center mb-4 mt-3">Our Story</h2></Slide>
                 <div className="row d-flex align-items-center">
-                    <div className="col-12 col-md-6 d-block d-md-block">
+                    <div className="col-12 col-md-6 ">
                         <Zoom><img src={Ourstoryimg}></img></Zoom>
                     </div>
-                    <div className="col-12 col-md-6 story ">
-                        <Slide top><h2 className="d-flex justify-content-center mb-4 mt-3">Our Story</h2></Slide>
+                    <div className="col-12 col-md-6 story mb-3">
                         <Slide bottom>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
