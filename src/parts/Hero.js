@@ -1,5 +1,4 @@
 import React from 'react';
-import Bg1 from '../assets/images/cf_4_2.png';
 import Bg2 from '../assets/images/fp_1.jpg';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
@@ -19,7 +18,7 @@ const Hero = () => {
                         </div>
                         <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
                             <Zoom>
-                                <img src={Bg2} className="d-none d-md-block"></img>
+                                <img src={Bg2} className="d-none d-md-block" alt="/"/>
                             </Zoom>
                         </div>
                         <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
@@ -33,7 +32,7 @@ const Hero = () => {
                             </Fade>
                         </div>
                         <Zoom>
-                            <button className="btn ml-50"> See More </button>
+                            <button className="btn"> See More </button>
                         </Zoom>
                     </div>
                 </div>

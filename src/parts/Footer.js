@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-6 col-md-3">
                             <div className="d-flex justify-content-center">
-                                <img src={logo} ></img>
+                                <img src={logo} alt="/"></img>
                             </div>
                             <h5 className="d-flex justify-content-center">Kedai Kopi Kebon Pines</h5>
                         </div>
@@ -31,10 +31,10 @@ const Footer = () => {
                         <div className="col-6 col-md-3 contact mt-4">
                             <h3 className="d-flex justify-content-center">Contact</h3>
                             <div className="d-flex justify-content-center">
-                                <img src={fb}></img>
-                                <img src={ig}></img>
-                                <img src={wa}></img>
-                                <img src={telegram}></img>
+                                <img src={fb} alt="/"></img>
+                                <img src={ig} alt="/"></img>
+                                <img src={wa} alt="/"></img>
+                                <img src={telegram} alt="/"></img>
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ const Header = () => {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-none navbar-2">
             <a className="navbar-brand" href="/">
-              <img src={Logo} width="40" height="40" ></img>
+              <img src={Logo} width="40" height="40" alt="/"></img>
               Kedai Kopi Kebon Pines
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,16 +17,16 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Home</a>
+                  <a className="nav-link" href="/">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Features</a>
+                  <a className="nav-link" href="/">Features</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Pricing</a>
+                  <a className="nav-link" href="/">Pricing</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Pricing</a>
+                  <a className="nav-link" href="/">Pricing</a>
                 </li>
               </ul>
             </div>

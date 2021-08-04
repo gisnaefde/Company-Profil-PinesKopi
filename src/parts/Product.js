@@ -1,5 +1,4 @@
 import React from 'react';
-import Coffee1 from '../assets/images/coffee.jpg';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import { coffee } from '../config/Coffee';
@@ -17,7 +16,7 @@ const Product = () => {
                             return (
                                 <div className="col-12 col-md-3" key={index}>
                                     <div className="d-flex justify-content-center">
-                                        <img src={data.images}></img>
+                                        <img src={data.images} alt="/" />
                                     </div>
                                     <h5 className="text-center">{data.name}</h5>
                                     <p>Rp. {data.price}</p>
@@ -37,7 +36,7 @@ const Product = () => {
                             return (
                                 <div className="col-12 col-md-3 mb-5" key={index}>
                                     <div className="d-flex justify-content-center">
-                                        <img src={data.images}></img>
+                                        <img src={data.images} alt="/"></img>
                                     </div>
                                     <h5 className="text-center">{data.name}</h5>
                                     <p>Rp {data.price}</p>

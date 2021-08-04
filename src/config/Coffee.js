@@ -1,4 +1,3 @@
-import React from 'react';
 import Cappucino from '../assets/images/coffee.jpg';
 
 export const coffee = [

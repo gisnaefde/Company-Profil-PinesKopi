@@ -10,7 +10,7 @@ const Ourstory = () => {
                 <Slide top><h2 className="text-center mb-4 mt-3">Our Story</h2></Slide>
                 <div className="row d-flex align-items-center">
                     <div className="col-12 col-md-6 ">
-                        <Zoom><img src={Ourstoryimg}></img></Zoom>
+                        <Zoom><img src={Ourstoryimg} alt="/"></img></Zoom>
                     </div>
                     <div className="col-12 col-md-6 story mb-3">
                         <Slide bottom>
